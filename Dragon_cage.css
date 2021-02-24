@@ -1,0 +1,213 @@
+body{ 
+	margin:0;
+	font-family: 'Akronim', cursive;
+	font-size:16px;
+	color:#6EE923;
+	width: 100%;
+	
+} 
+
+
+*,
+*:before,
+*:after{
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+	margin: 0;
+}
+
+/* Container*/
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+
+	
+}
+.container__cont{
+	display:block;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+
+}
+
+
+.container__intro{
+	
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	max-width: 880px;
+	margin: 0 auto;
+}
+
+
+
+
+/* Intro*/
+
+/*фон*/
+.intro{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	
+	width: 100%;
+	height: 100vh;
+	
+	background: url("fantasy-wallpapers-2560x1440-0000.jpg") center 
+	no-repeat;
+	-webkil-background-size: cover;
+	background-size: cover;
+}
+
+.intro__suptitle{
+	color: #65B6E5;
+	
+	font-size: 100px;
+	font-weight: 500;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 1;
+		
+}
+
+.intro__images3{
+	z-index: 3;
+}
+
+.intro__discord{
+	color: #FD8201;
+	margin-top: 2%;
+	font-size: 30px;
+	font-weight: 400;
+	
+	text-align: center;
+	line-height: 1;
+	text-decoration: none;
+}
+
+
+.intro__discord:hover{
+	color:#65B6E5;	
+	
+}
+
+
+
+/* Heder */
+.header {
+	width:100%;
+	padding-top: 0px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+}
+/*Logo*/
+
+.logo{
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.logo__emblam1{
+	position: absolute;
+	z-index: 2;
+	
+}
+
+.logo__emblam2{
+	position: absolute;
+	z-index: 2;
+	
+	
+	
+}
+
+.header__logo{
+	font-size: 120px;
+	font-weight: 550;
+	
+}
+	
+
+	
+	
+/*Nav*/
+.nav{
+	font-size: 20px;
+	 
+}
+
+.nav__link{
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 15px;
+	
+	
+	color: #65B6E5;
+	text-decoration: none;
+	position: relative;
+	transition: color 0.2s linear;
+	
+	}
+	
+
+
+.nav__link:after {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 2px;
+	
+	
+	background-color: #FD8201;
+	 
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 2;
+	
+	opacity: 0;
+	transition: opacity 0.2s linear;
+
+}
+
+.nav__link:hover{
+	color: #FD8201;
+	font-size: 25px;
+	opacity: 1;
+}
+
+.nav__link:hover:after {
+	
+	opacity: 1;
+
+}
+
+/*box*/
+
+
+.box{
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	max-height: 300px;
+	margin: 0 auto;
+	
+}
+
+.images__box:hover{
+	width: 100%;
+
+}
